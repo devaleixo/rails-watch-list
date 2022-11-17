@@ -1,2 +1,39 @@
 // Import page-specific CSS files here.
 @import "home";
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  p{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+  }
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3em;
+}
+
+.card {
+  height: 7em;
+  width: 15em;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  font-weight: bold;
+  box-shadow: 10px 5px 5px black;
+    p{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+  }
+}
