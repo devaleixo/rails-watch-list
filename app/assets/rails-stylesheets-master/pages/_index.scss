@@ -35,14 +35,14 @@
   background-position: center;
   align-items: center;
   font-weight: bold;
-  box-shadow: 10px 10px 20px black;
+  box-shadow: 5px 10px 10px black;
   margin: 0 auto;
     p{
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px black;
   }
   &:hover {
-    box-shadow: 10px 10px 20px white;
+    box-shadow: 5px 10px 10px white;
   }
 }
 
@@ -55,11 +55,11 @@
 }
 .btn {
   width: 12em;
-  background-color: #CF0A0A;
+  background-color: black;
   border-radius: 5px;
   border: none;
   &:hover {
-    background-color: black;
+    background-color: #CF0A0A;
   }
 }
 .banner{
