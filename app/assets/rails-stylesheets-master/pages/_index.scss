@@ -37,12 +37,14 @@
   font-weight: bold;
   box-shadow: 5px 10px 10px black;
   margin: 0 auto;
+  text-decoration: none;
     p{
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px black;
   }
   &:hover {
     box-shadow: 5px 10px 10px white;
+
   }
 }
 
@@ -74,4 +76,8 @@ h2{
   text-align: center;
     font-size: 3em;
   }
+}
+
+#text{
+  text-decoration: none;
 }

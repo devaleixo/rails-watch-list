@@ -38,10 +38,18 @@
   <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://ntvb.tmsimg.com/assets/p22941322_b_h8_ac.jpg?w=1280&h=720)">
      <p>Series</p>
   </div>
+
+  <%@lists.each do |e| %>
+  <%= link_to list_path(e), id:"text" do %>
+    <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%=e.img_url%>)">
+    <p id=""><%= e.name %></p>
+    </div>
+  <%end%>
+  <%end%>
 </div>
 
 <div class = "newlist pb-3">
-<%= link_to "Make Your Own Lists", list_new_path, class: "btn btn-primary" %>
+<%= link_to "Make Your Own Lists", lists_new_path, class: "btn btn-primary" %>
 </div>
 
 <div class="banner">
