@@ -1,0 +1,25 @@
+h1 {
+  font-size: 100px;
+}
+
+.new {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-movies-1606255499.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#listpagebutton {
+  background-color: aqua;
+  display: flex;
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+}
+
+.teste {
+  color: #000000;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgb(255, 255, 255);
+}
