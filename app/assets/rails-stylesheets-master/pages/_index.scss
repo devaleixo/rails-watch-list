@@ -46,12 +46,29 @@
   }
 }
 
+.newlist {
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  background-color: #DC5F00;
+  justify-content: center;
+}
+.btn {
+  width: 12em;
+  background-color: #CF0A0A;
+  border-radius: 5px;
+  border: none;
+  &:hover {
+    background-color: black;
+  }
+}
 .banner{
 width: 100%;
 background-color: #222;
 height: 20em;
 padding-block: 2em;
 text-align: left;
+align-items: center;
 h2{
   margin-bottom: 0.5em;
   text-align: center;
