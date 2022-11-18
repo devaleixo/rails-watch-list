@@ -20,7 +20,11 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 3em;
+  grid-gap: 2em;
+  justify-content: center;
+  align-items: center;
+  background-color: #DC5F00;
+  padding-block: 2em;
 }
 
 .card {
@@ -31,9 +35,26 @@
   background-position: center;
   align-items: center;
   font-weight: bold;
-  box-shadow: 10px 5px 5px black;
+  box-shadow: 10px 10px 20px black;
+  margin: 0 auto;
     p{
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px black;
+  }
+  &:hover {
+    box-shadow: 10px 10px 20px white;
+  }
+}
+
+.banner{
+width: 100%;
+background-color: #222;
+height: 20em;
+padding-block: 2em;
+text-align: left;
+h2{
+  margin-bottom: 0.5em;
+  text-align: center;
+    font-size: 3em;
   }
 }
