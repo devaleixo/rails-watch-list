@@ -41,7 +41,7 @@
 
   <%@lists.each do |e| %>
   <%= link_to list_path(e), id:"text" do %>
-    <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%=e.img_url%>)">
+    <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= url_for(e.photo) %>')">
     <p id=""><%= e.name %></p>
     </div>
   <%end%>

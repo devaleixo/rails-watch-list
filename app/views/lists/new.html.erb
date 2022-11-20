@@ -1,18 +1,12 @@
 <div class="new">
   <div class="container teste">
-    <h2 class = ''>Custom list</h2>
+    <h2 class = ''>Profile List</h2>
     <%= simple_form_for(@list) do |f| %>
       <div class="inputs">
       <%= f.input :name, :label => 'Your Name, Please' %>
-      <%= f.input :img_url, :label => 'URL of a picture of yours!'%>
+       <%= f.input :photo, as: :file, :label => 'Profile Pic' %>
       </div>
       <%= f.submit class: "btn btn-primary", id: "listpagebutton"%>
     <% end %>
-    <div class="alert alert-primary" role="alert">
-      You can grab a picture of yours from Twitter or Linkedin, you just need
-      to 1- Click on your profile photo with the right button, 2- Click in copy image adress
-      3- Paste(cnt/cmd + v) it in the input imagem field. You can use another picture too
-      but it's funnier to show yourself.
-</div>
   </div>
 </div>
